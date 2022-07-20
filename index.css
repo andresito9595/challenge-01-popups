@@ -21,11 +21,13 @@
 }
 .div__btn {
   position: relative;
-  top: -10px;
-  left: 150px;
+  width: 320px;
 }
 
 .cruzArriba {
+  position: absolute;
+  left: 90%;
+  top: -20px;
   border: none;
   background-color: #ed6755;
   color: rgb(255, 255, 255);
@@ -35,8 +37,13 @@
 }
 
 .cruzArriba:hover {
-  box-shadow: rgb(2, 1, 1) 0px 0px 10px 5px;
+  box-shadow: rgb(2, 1, 1) 0px 0px 5px 5px;
   color: rgb(0, 0, 0);
+}
+.cruzArriba:active {
+  box-shadow: rgb(2, 1, 1) 0px 0px 10px 5px;
+  color: rgb(120, 19, 19);
+  background-color: #f03e3e;
 }
 .fa-x {
   margin: 5px;
@@ -71,29 +78,11 @@
 
 .buttonArriba:hover {
   box-shadow: rgb(200, 47, 47) 0px 0px 10px 10px;
+  text-shadow: rgba(0, 0, 0, 0.74) 1px 1px 1px;
 }
 
-.parteAbajo {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 50vh;
-}
-
-.parteAbajo img {
-  object-fit: contain;
-  width: 130px;
-}
-
-.description2 {
-  background-color: aqua;
-}
-
-.buttonAbajo {
-  border-radius: 5px;
-  border: 2px solid transparent;
-  background-color: #ed6755;
-  color: #fff;
-  box-shadow: #333 0px 4px 10px;
+.buttonArriba:active {
+  box-shadow: rgb(114, 24, 24) 0px 0px 10px 10px;
+  background-color: #ed6361;
+  text-shadow: rgba(40, 10, 10, 0.74) 1px 1px 4px;
 }
