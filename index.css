@@ -3,37 +3,36 @@
 }
 
 .main {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(237, 218, 218);
   display: flex;
   flex-direction: column;
 }
 
 .parteArriba {
   display: flex;
-  flex-basis: 350px;
-  height: 50vh;
-
+  width: 432px;
+  height: 399px;
+  border-radius: 10px;
   background-color: #fff;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   align-self: center;
+  margin: 5px;
+  box-shadow: rgb(57, 55, 55) 0px 0px 20px;
 }
 .div__btn {
   position: relative;
-  width: 320px;
+  width: 220px;
 }
 
 .cruzArriba {
   position: absolute;
-  left: 90%;
+  right: -80px;
   top: -20px;
   border: none;
-  background-color: #ed6755;
-  color: rgb(255, 255, 255);
-  border-radius: 10px;
-  border-color: #ed6768;
-  box-shadow: rgb(185, 109, 109) 0px 0px 10px 5px;
+
+  color: rgb(65, 59, 59);
 }
 
 .cruzArriba:hover {
@@ -43,7 +42,6 @@
 .cruzArriba:active {
   box-shadow: rgb(2, 1, 1) 0px 0px 10px 5px;
   color: rgb(120, 19, 19);
-  background-color: #f03e3e;
 }
 .fa-x {
   margin: 5px;
