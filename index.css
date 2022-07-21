@@ -6,11 +6,12 @@
   background-color: rgb(237, 218, 218);
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .parteArriba {
   display: flex;
-  width: 432px;
+  min-width: 432px;
   height: 399px;
   border-radius: 10px;
   background-color: #fff;
@@ -22,16 +23,14 @@
   box-shadow: rgb(57, 55, 55) 0px 0px 20px;
 }
 .div__btn {
+  display: flex;
   position: relative;
-  width: 220px;
+  width: 350px;
 }
 
 .cruzArriba {
-  position: absolute;
-  right: -80px;
-  top: -20px;
   border: none;
-
+  margin-left: auto;
   color: rgb(65, 59, 59);
 }
 
